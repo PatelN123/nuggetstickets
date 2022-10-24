@@ -137,7 +137,7 @@ client.on("interactionCreate", async (interaction) => {
             .setDescription(
               "Please hold, someone will be with you soon."
             )
-          channel.send("<@947305875423526912> - <@" + interaction.user.id + ">");
+          channel.send("<@&947305875423526912> - <@" + interaction.user.id + ">");
           channel.send({ content: "", embeds: [embed] });
         });
       interaction.reply({
