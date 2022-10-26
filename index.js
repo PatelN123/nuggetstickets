@@ -21,7 +21,7 @@ const client = new Client({
     GatewayIntentBits.MessageContent,
   ],
 });
-const token = "MTAzNDA5NjE1MzkyMDI3ODU5OA.GO2aLV.QF_1WKUw_KFV3ujYnQR7NmmB4TbEZsdQvSQoVc"; //Enter your bot's token here
+const token = "MTAzNDEzOTQxNTMzOTA4NTkxNQ.GCq_s8.kUjU0o6ebATgtAy4Zi6QwP-MxXsDP1FThiIKDs"; //Enter your bot's token here
 const prefix = "."; //This will change how interacting with the bot works. Changing this to ! will make the bot respond to !ticketsystem instead of .ticketsystem
 
 function getCurrentServerTime() {
